@@ -2,7 +2,7 @@
 
 # East African Music Festival
 
-East African-Music Festival project is a website that advertise an anually recuring concert. it also gives the background and overview of the concert and it also highlight the past years concert to attract the attendance. it is a responsive mobile first website. 
+East African Music Festival project is a website that advertise an anually recuring concert. it also gives the background and overview of the concert and it also highlight the past years concerts to attract the attendance. it is a responsive mobile first website. 
 
 
 ## Built With
