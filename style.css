@@ -27,6 +27,8 @@ img {
   background-color: #fff;
   display: flex;
   align-items: center;
+  top: 0;
+  position: sticky;
 }
 
 .lower {
@@ -108,10 +110,19 @@ img {
 .headline {
   width: 100%;
   padding: 100px 0;
-  background: linear-gradient(#f5f4f4f2, #fce5d3cc), url(./Images/party.jpg);
+  background: linear-gradient(#f5f4f4fc, rgba(254, 255, 255, 0.9)), url(./Images/stage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.headliner {
+  width: 100%;
+  padding: 100px 0;
+  background: linear-gradient(rgba(245, 244, 244, 0.98), rgba(254, 255, 255, 0.97)), url(./Images/vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .content {
@@ -120,12 +131,16 @@ img {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  color: #575757;
+  color: #272a31;
   line-height: 44px;
 }
 
 .title {
   color: #ec5242;
+}
+
+.abouttitle {
+  text-align: center;
 }
 
 .title p {
@@ -138,13 +153,39 @@ img {
 }
 
 .content p {
-  line-height: 30px;
+  line-height: 27px;
+}
+
+.eac p {
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+}
+
+.wanted {
+  background-color: #fff;
+  padding: 70px 0;
+}
+
+.wanted p {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .venue {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.aboutvenue {
+  padding: 20px;
+}
+
+.aboutvenue span {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .program {
@@ -157,6 +198,15 @@ img {
 .program h2 {
   text-align: center;
   color: #fff;
+  padding-bottom: 8px;
+}
+
+hr {
+  width: 50px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #ec5242;
+  border: none;
 }
 
 .activities {
@@ -197,7 +247,12 @@ img {
 
 .artists h2 {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 8px;
+  font-size: 35px;
+}
+
+.head {
+  padding: 30px 0 50px 0;
 }
 
 .artist {
@@ -213,7 +268,8 @@ img {
 }
 
 .artists {
-  padding: 60px 0;
+  padding: 110px 0;
+  background-color: #fff;
 }
 
 .about .desc {
@@ -221,33 +277,48 @@ img {
   line-height: 18px;
 }
 
+.one {
+  background-color: #d3d3d3;
+}
+
+.one p,
+.two p {
+  width: 57%;
+  margin: 0 auto;
+}
+
+.eac h2 {
+  font-weight: 700;
+  font-size: 44px;
+  color: #fff;
+}
+
 .partiner {
-  padding: 50px 0;
+  padding: 20px 0 40px 0;
   background-color: #272a32;
-  margin-top: 60px;
 }
 
 .partiner .content {
   gap: 0;
 }
 
-.partiner .content h3 {
+.partiner .content h2 {
   text-align: center;
+  color: #fff;
+  font-size: 27px;
 }
 
 .partiners {
   display: flex;
-  background-color: #272a32;
+  padding: 10px 0 30px 0;
   justify-content: space-between;
-}
-
-.partiners img {
-  width: 80px;
+  font-size: 64px;
+  color: rgb(175, 170, 170);
 }
 
 .footer {
   display: flex;
-  background-color: #fff;
+  background-color: #d3d3d3;
   width: 100%;
   padding: 30px 0;
 }
@@ -260,4 +331,55 @@ img {
 .rights {
   font-size: 12px;
   line-height: 15px;
+}
+
+.history {
+  padding: 70px 0;
+}
+
+.history .content {
+  text-align: center;
+}
+
+.djimage {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.past {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+
+.eac {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kenya {
+  background: linear-gradient(rgba(233, 107, 34, 0.48), rgba(235, 68, 39, 0.47)), url(./Images/Kenya.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.ug {
+  background: linear-gradient(rgba(233, 107, 34, 0.48), rgba(235, 68, 39, 0.47)), url(./Images/ug.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bj {
+  background: linear-gradient(rgba(233, 107, 34, 0.48), rgba(235, 68, 39, 0.47)), url(./Images/bj.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.tz {
+  background: linear-gradient(rgba(233, 107, 34, 0.48), rgba(235, 68, 39, 0.47)), url(./Images/tz.jpg);
+  background-size: cover;
+  background-position: center;
 }
