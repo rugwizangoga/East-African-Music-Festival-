@@ -514,6 +514,10 @@ hr {
     font-size: 13px;
   }
 
+  .footer .content {
+    width: 65%;
+  }
+
   .aboutfooter {
     background-color: #272a31;
   }
