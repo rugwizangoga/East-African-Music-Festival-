@@ -317,10 +317,19 @@ hr {
 
 .partiners {
   display: flex;
-  padding: 10px 0 30px 0;
-  justify-content: space-between;
-  font-size: 64px;
+  width: 100%;
+  justify-content: center;
+  font-size: 44px;
   color: #82808a;
+  text-align: center;
+}
+
+.partiners .fa {
+  padding-right: 10%;
+}
+
+.partiners .fa:last-child {
+  padding-right: 0;
 }
 
 .footer {
@@ -332,7 +341,7 @@ hr {
 
 .footer .content {
   flex-direction: row;
-  justify-content: space-between;
+  gap: 10%;
 }
 
 .rights {
@@ -503,19 +512,6 @@ hr {
   .artist .about .desc {
     line-height: 24px;
     font-size: 13px;
-  }
-
-  .partiner .content {
-    width: 85%;
-  }
-
-  .partiners img {
-    width: 110px;
-  }
-
-  .footer {
-    width: 100%;
-    padding: 50px 0;
   }
 
   .aboutfooter {
