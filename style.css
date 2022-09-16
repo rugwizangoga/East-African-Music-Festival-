@@ -383,3 +383,156 @@ hr {
   background-size: cover;
   background-position: center;
 }
+
+@media only screen and (min-width: 768px) {
+  .topnav {
+    height: 39px;
+    background-color: #272a31;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .lowernav {
+    padding: 20px 0;
+  }
+
+  .topnavul {
+    display: flex;
+    gap: 25px;
+    padding-right: 50px;
+  }
+
+  .title h1 {
+    font-size: 44px;
+  }
+
+  .topnavul a {
+    color: #fff;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navcontainer {
+    order: 2;
+  }
+
+  .navul {
+    display: flex;
+  }
+
+  .navul li {
+    padding-right: 25px;
+  }
+
+  .program a {
+    text-align: center;
+  }
+
+  .mylogo p {
+    font-size: 1.3rem;
+  }
+
+  .navul li a {
+    color: #888;
+    font-size: 19px;
+  }
+
+  .headline {
+    padding: 140px 0;
+  }
+
+  .content {
+    width: 87%;
+    gap: 40px;
+    font-size: 18px;
+  }
+
+  .headline .content p {
+    width: 65%;
+  }
+
+  .headline .content h1 {
+    width: 50%;
+    font-size: 48px;
+    padding-top: 10px;
+  }
+
+  .headline .abouttitle h1 {
+    margin: 10px auto;
+  }
+
+  .abouttitle .title p {
+    display: none;
+  }
+
+  .activities {
+    flex-direction: row;
+  }
+
+  .activity {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 4fr;
+    align-items: center;
+  }
+
+  .activity li {
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .activity .title {
+    font-size: 19px;
+  }
+
+  .art {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .artist .about .desc {
+    line-height: 24px;
+    font-size: 13px;
+  }
+
+  .partiner .content {
+    width: 85%;
+  }
+
+  .partiners img {
+    width: 110px;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .aboutfooter {
+    background-color: #272a31;
+  }
+
+  .aboutfooter .content {
+    color: #fff;
+  }
+
+  .aboutfooter .content .mylogo p {
+    color: #fff;
+  }
+
+  .aboutpartner {
+    display: none;
+  }
+
+  .rights {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .past {
+    grid-template-columns: 1fr 1fr;
+  }
+}
