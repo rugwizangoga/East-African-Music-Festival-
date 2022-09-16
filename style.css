@@ -210,8 +210,7 @@ hr {
 }
 
 .activities {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 15px;
 }
 
@@ -225,6 +224,10 @@ hr {
 
 .activity .title {
   line-height: 15px;
+}
+
+.icon i {
+  color: #cac4c4;
 }
 
 .about {
@@ -262,7 +265,7 @@ hr {
 }
 
 .image {
-  width: 200px;
+  width: 270px;
   height: 170px;
 }
 
@@ -317,7 +320,7 @@ hr {
   padding: 10px 0 30px 0;
   justify-content: space-between;
   font-size: 64px;
-  color: rgb(175, 170, 170);
+  color: #82808a;
 }
 
 .footer {
@@ -473,13 +476,14 @@ hr {
   }
 
   .activities {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .activity {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 4fr;
-    align-items: center;
+    grid-template-rows: 1fr 1fr 3fr;
+    align-items: flex-start;
   }
 
   .activity li {
