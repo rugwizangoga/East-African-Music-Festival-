@@ -1,11 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# East African-Music Festival
+# East African Music Festival
 
 East African-Music Festival project is a website that advertise an anually recuring concert. it also gives the background and overview of the concert and it also highlight the past years concert to attract the attendance. it is a responsive mobile first website. 
 
 
-## Built 
+## Built With
 
 - Git
 - Github
@@ -45,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to Cindy Shin for his/her Original design idea [Creative commons](https://creativecommons.org/licenses/by-nc/4.0/) in Behance the design was refered to during the project.
+- Hat tip to Cindy Shin for his/her Original design idea [Creative commons](https://creativecommons.org/licenses/by-nc/4.0/) in Behance, the design was refered to during the project.
 - Inspiration
 - etc
 
