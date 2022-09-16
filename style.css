@@ -210,8 +210,7 @@ hr {
 }
 
 .activities {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 15px;
 }
 
@@ -227,6 +226,10 @@ hr {
   line-height: 15px;
 }
 
+.icon i {
+  color: #cac4c4;
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -240,9 +243,8 @@ hr {
 }
 
 .art {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
+  display: grid;
+  gap: 50px;
 }
 
 .artists h2 {
@@ -258,8 +260,13 @@ hr {
 .artist {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  align-items: center;
+  gap: 20px;
+  justify-content: start;
+}
+
+.image {
+  width: 270px;
+  height: 170px;
 }
 
 .name {
@@ -310,10 +317,19 @@ hr {
 
 .partiners {
   display: flex;
-  padding: 10px 0 30px 0;
-  justify-content: space-between;
-  font-size: 64px;
-  color: rgb(175, 170, 170);
+  width: 100%;
+  justify-content: center;
+  font-size: 44px;
+  color: #82808a;
+  text-align: center;
+}
+
+.partiners .fa {
+  padding-right: 10%;
+}
+
+.partiners .fa:last-child {
+  padding-right: 0;
 }
 
 .footer {
@@ -325,7 +341,7 @@ hr {
 
 .footer .content {
   flex-direction: row;
-  justify-content: space-between;
+  gap: 10%;
 }
 
 .rights {
@@ -348,7 +364,7 @@ hr {
 
 .past {
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: 1fr;
 }
 
@@ -382,4 +398,148 @@ hr {
   background: linear-gradient(rgba(233, 107, 34, 0.48), rgba(235, 68, 39, 0.47)), url(./Images/tz.jpg);
   background-size: cover;
   background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .topnav {
+    height: 39px;
+    background-color: #272a31;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .lowernav {
+    padding: 20px 0;
+  }
+
+  .topnavul {
+    display: flex;
+    gap: 25px;
+    padding-right: 50px;
+  }
+
+  .title h1 {
+    font-size: 44px;
+  }
+
+  .topnavul a {
+    color: #fff;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navcontainer {
+    order: 2;
+  }
+
+  .navul {
+    display: flex;
+  }
+
+  .navul li {
+    padding-right: 25px;
+  }
+
+  .program a {
+    text-align: center;
+  }
+
+  .mylogo p {
+    font-size: 1.3rem;
+  }
+
+  .navul li a {
+    color: #888;
+    font-size: 19px;
+  }
+
+  .headline {
+    padding: 140px 0;
+  }
+
+  .content {
+    width: 87%;
+    gap: 40px;
+    font-size: 18px;
+  }
+
+  .headline .content p {
+    width: 65%;
+  }
+
+  .headline .content h1 {
+    width: 50%;
+    font-size: 48px;
+    padding-top: 10px;
+  }
+
+  .headline .abouttitle h1 {
+    margin: 10px auto;
+  }
+
+  .abouttitle .title p {
+    display: none;
+  }
+
+  .activities {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .activity {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 3fr;
+    align-items: flex-start;
+  }
+
+  .activity li {
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .activity .title {
+    font-size: 19px;
+  }
+
+  .art {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .artist .about .desc {
+    line-height: 24px;
+    font-size: 13px;
+  }
+
+  .footer .content {
+    width: 65%;
+  }
+
+  .aboutfooter {
+    background-color: #272a31;
+  }
+
+  .aboutfooter .content {
+    color: #fff;
+  }
+
+  .aboutfooter .content .mylogo p {
+    color: #fff;
+  }
+
+  .aboutpartner {
+    display: none;
+  }
+
+  .rights {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .past {
+    grid-template-columns: 1fr 1fr;
+  }
 }
