@@ -240,9 +240,8 @@ hr {
 }
 
 .art {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
+  display: grid;
+  gap: 50px;
 }
 
 .artists h2 {
@@ -258,8 +257,13 @@ hr {
 .artist {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  align-items: center;
+  gap: 20px;
+  justify-content: start;
+}
+
+.image {
+  width: 200px;
+  height: 170px;
 }
 
 .name {
@@ -348,7 +352,7 @@ hr {
 
 .past {
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: 1fr;
 }
 
@@ -489,7 +493,6 @@ hr {
   }
 
   .art {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
